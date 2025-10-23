@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paris Texas - Kevin Kaarl</title>
+
+<style>
+  @font-face{
+    font-family:"Big Shoulder Stencil";
+    src:url("../Fonts/Big_Shoulders_Stencil/BigShouldersStencil-VariableFont_opsz,wght.ttf");
+  }
+
+
+  
+  body{
+    margin:0;
+    font-family:"Big Shoulder Stencil", system-ui, sans-serif;
+    color:#fff;
+    background:#000;
+  }
+
+
+  .portada{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:
+      linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+      url("Img/ab67616d0000b2730ee7e051b92d154d0c0bdf54.jpeg")
+      center/cover no-repeat fixed;
+  }
+  .titulo{
+    background: rgba(0,0,0,.40);
+    backdrop-filter: blur(10px);           
+    border:1px solid rgba(255,255,255,.2);
+    border-radius:20px;
+    padding:16px 48px;
+    font-size: 110px;                     
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+
+
+  .contenido-wrap{
+    background:#0c0c0c;
+  }
+  .contenido{
+    width: 1100px;                          
+    margin: 0 auto;                     
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;       
+    gap: 50px;
+  }
+  .titulo-columna{
+    grid-column: 1 / 2;
+    font-size: 38px;                   
+    margin: 0 0 14px 0;
+    color:#f4e9d8;
+    letter-spacing:2px;
+    text-transform:uppercase;
+  }
+  .columna{
+    color:#ddd;
+    font-size: 20px;                 
+    line-height: 1.7;
+    text-align: justify;
+  }
+
+  .version-links {
+  position: absolute;   
+  top: 20px;         
+  right: 20px;         
+  display: flex;           
+  gap: 15px;            
+  z-index: 1000;           
+}
+
+.version-links a {
+  color: #f4e9d8;         
+  text-decoration: none;   
+  font-size: 18px;
+  font-family: "Big Shoulder Stencil", sans-serif;
+  background: rgba(0, 0, 0, 0.45); 
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.version-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.centro { 
+  text-align: center;
+  font-size: medium;
+  color:#f4e9d8
+}
+
+
+  body { min-width: 1050px; }    
+</style>
+</head>
+
+<body>
+  <div class="version-links">
+    <a href="InLinePT.html" >Version InLine</a>
+    <a href="ExternoPT.html" >Version Externa</a>
+  </div>
+
+  <section class="portada">
+    <div class="titulo">Paris Texas</div>
+  </section>
+
+  <div class="contenido-wrap">
+    <section class="contenido">
+      <div>
+        <h2 class="titulo-columna">Sobre el Album : Paris Texas</h2>
+        <p class="columna">
+          Paris Texas de Kevin Kaarl es una pieza introspectiva que mezcla melancolia con esperanza.
+          Habla de caminos que se separan, la nostalgia y la busqueda personal en medio de la soledad.
+          La letra poetica y la produccion minimalista transmiten paz y perdida a la vez.
+        </p>
+      </div>
+
+      <div>
+        <p class="columna">
+            Evoca la estetica del cine clasico americano: con paisajes amplios y silencios elocuentes.
+          La voz calida de Kevin Kaarl con instrumentacion que llega a ser intima, crea una atmosfera de reflexion y descanso emocional.
+        </p>
+      </div>
+    </section>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/-qA4tpSwcjU?si=Pk56KtodywcodCk6"
+        style="display:block; margin:80px auto; border-radius:12px; box-shadow:0 0 25px rgba(0,0,0,0.5);"
+        allowfullscreen>
+    </iframe>
+
+    <div class="centro">
+      <p> Sitio Web: </p>
+      <a href="https://kevinkaarl.com/"> Tienda Kevin Kaarl. </a>
+    </div>
+  </div>
+</body>
+</html>
