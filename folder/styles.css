@@ -16,7 +16,7 @@ body {
   justify-content: center;
   background:
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("D:/IoT/HTML/Img/ab67616d0000b2730ee7e051b92d154d0c0bdf54.jpeg")
+    url("https://raw.githubusercontent.com/Santy014/santy.github.io/main/folder/ab67616d0000b2730ee7e051b92d154d0c0bdf54.jpeg")
     center/cover no-repeat fixed;
 }
 
@@ -94,3 +94,4 @@ body {
   font-size: medium;
   color:#f4e9d8
 }
+
