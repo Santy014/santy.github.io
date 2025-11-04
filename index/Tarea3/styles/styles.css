@@ -1,6 +1,6 @@
 /* Fondo general */
 body {
-  background-image: url("img/bg_normal.jpg");
+  background-image: url("https://raw.githubusercontent.com/Santy014/santy.github.io/refs/heads/main/index/Tarea3/Imagenes/bg_normal.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -40,3 +40,4 @@ body {
 .botones img:hover {
   transform: scale(1.1);
 }
+
