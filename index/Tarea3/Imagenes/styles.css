@@ -1,0 +1,42 @@
+/* Fondo general */
+body {
+  background-image: url("img/bg_normal.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  margin: 0;
+}
+
+/* Imagen principal */
+#personaje {
+  width: 300px;
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+
+/* Botones */
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.botones button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.botones img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.botones img:hover {
+  transform: scale(1.1);
+}
